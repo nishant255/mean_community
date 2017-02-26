@@ -1,0 +1,25 @@
+{
+  "name": "nodeangularmeantemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@google/maps": "^0.3.1",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.4"
+  },
+  "devDependencies": {
+    "jasmine": ">=2.3.2 <2.5.0",
+    "jsdoc": "^3.4.0",
+    "priorityqueuejs": "^1.0.0",
+    "q": "^1.4.1"
+  },
+  "scripts": {
+    "test": "jasmine && jasmine spec/e2e/*.js",
+    "jsdoc": "jsdoc -c docs/conf.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
